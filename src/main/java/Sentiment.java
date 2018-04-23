@@ -88,8 +88,8 @@ public class Sentiment {
                         ParseSen.append("0.8>");
                     }
                     if (negWordSet.contains(item)) {
-                        System.out.print("PW");
-                        readParse.append("PW>");
+                        System.out.print("NW");
+                        readParse.append("NW>");
                         ParseSen.append("-0.8>");
                     }
                 }
